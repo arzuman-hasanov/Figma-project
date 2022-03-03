@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.container {
+    width: 1400px;
+    height: 1046px;
+    padding: 91px 150px 173px 124px;
+}
+
+.container h1 {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin-bottom: 55px;
+    line-height: 55.76px;
+}
+
+.container .middle-part {
+    display: flex;
+    align-items: center;
+}
+
+.container .middle-part p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 662px;
+}
+
+.container .middle-part .image-section {
+    position: relative;
+    margin-left: 190px;
+    margin-top: -29px;
+}
+
+.container .middle-part article img:nth-child(2) {
+    position: absolute;
+    bottom: -25px;
+    left: -26px;
+    z-index: -1;
+}
+
+.bottom-part {
+    display: flex;
+    margin-top: 72px;
+}
+
+.container .image-bottom-section {
+    position: relative;
+}
+
+.container .image-bottom-section img:nth-child(2) {
+    position: absolute;
+    bottom: -12px;
+    left: 33px;
+    z-index: -1;
+}
+
+.bottom-part .parts {
+    display: flex;
+    align-items: center;
+    margin-top: 20.5px;
+}
+
+.bottom-part img {
+    margin-right: 132px;
+}
+
+.bottom-part .parts div {
+    margin-right: 95px;
+}
+
+.bottom-part .parts .part-2 {
+    margin-right: 93px;
+}
+
+.bottom-part .parts h2 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.bottom-part .parts p {
+    font-size: 18px;
+    line-height: 23px;
+    width: 150px;
+}
+
+
+@media (max-width: 830px) {
+    .container {
+        width: 830px;
+        height: 633px;
+        padding: 56px 86.69px 174px 72px;
+    }
+    .container h1 {
+        font-size: 32px;
+        line-height: 32.44px;
+        margin-bottom: 25.29px;
+    }
+    .container .middle-part p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 383px;
+    }
+    .container .middle-part .image-section {
+        margin-left: 110.45px;
+    }
+    .container .middle-part article img:first-child {
+        width: 181.86px;
+        height: 182.44px;  
+    }
+    .container .middle-part article img:nth-child(2) {
+        bottom: -15px;
+        left: -20px;
+        width: 220px;
+        height: 40px;
+    }
+    .bottom-part .parts {
+        align-items: center;
+        margin-top: 54px;
+    }
+    .image-bottom-section {
+        display: none;
+    }
+    .bottom-part .parts div:first-child {
+        margin-right: 55.23px;
+    }
+    .bottom-part .parts div:nth-child(2) {
+        margin-right: 32.53px;
+    }
+    .bottom-part .parts .part-2 p {
+        width: 108px;
+    }
+    .bottom-part .parts h2 {
+        font-size: 15px;
+        line-height: 19.5px;
+        width: 86.88px;
+    }
+    .bottom-part .parts p {
+        line-height: 14.3px;
+        font-size: 11px;
+        font-weight: 400;
+        width: 86.88px;
+        margin-top: 4.17px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 375px;
+        height: 776px;
+        padding: 56px 30.53px 110px 36px;
+    }
+    
+    .container h1 {
+        font-size: 26px;
+        line-height: 26.36px;
+        margin-bottom: 20.72px;
+    }
+    
+    .container .middle-part {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .middle-part .image-section {
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .container .middle-part p {
+        line-height: 18px;
+        font-size: 12px;
+        margin-bottom: 12px;
+        width: 308.47px;
+    }
+    
+    .container .middle-part article img:first-child {
+        width: 170.55px;
+        height: 160.29px;
+    }
+    
+    .container .middle-part article img:nth-child(2) {
+        bottom: -10px;
+        left: -15px;
+        width: 200px;
+        height: 27.49px;
+    }
+    .bottom-part {
+        margin-top: 0;
+    }
+    .bottom-part .parts {
+        flex-wrap: wrap;
+        margin-top: 45.71px;
+        row-gap: 25px;
+    }
+    
+    .bottom-part .parts div {
+        width: 29%;
+        margin-right: 33.33px !important;
+    }
+    
+    .bottom-part .parts h2 {
+        font-size: 12px;
+        line-height: 15.6px;
+        margin-bottom: 0;
+    }
+    
+    .bottom-part .parts p {
+        width: 86px;
+        line-height: 13px;
+        font-size: 10px;
+        margin-top: 0;
+    }
+}
